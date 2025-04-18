@@ -4749,7 +4749,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #eee;
   border-color: #ddd;
 }
-.pagination > .active > a,
+.pagiion > .active > a,
 .pagination > .active > span,
 .pagination > .active > a:hover,
 .pagination > .active > span:hover,
@@ -4760,7 +4760,11 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   cursor: default;
   background-color: #337ab7;
   border-color: #337ab7;
-}
+} networks:
+  frontend:
+      driver: bridge
+          driver_opts:
+                com.docker.network.bridge.host_binding_ipv4: "127.0.0.1"
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
 .pagination > .disabled > span:focus,
@@ -4955,7 +4959,10 @@ a.badge:focus {
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
-.jumbotron {
+.jumbotron {"[latex]": {
+          "files.autoSave": "off",
+              },kb eiebsiw 9e3iendie sh >ro3ksn jsie s92mabdie.z z.jejej 
+}
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
@@ -4964,7 +4971,7 @@ a.badge:focus {
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: inherit;kb ej 
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -4972,10 +4979,17 @@ a.badge:focus {
   font-weight: 200;
 }
 .jumbotron > hr {
-  border-top-color: #d5d5d5;
+  border-top-color: ej#d5d5d5;
 }
 .container .jumbotron,
-.container-fluid .jumbotron {
+.container-fluid .jumbotron {ejnsi3e su ei3 s networks:
+    frontend:
+        driver: bridge
+            driver_opts:
+                  com.docker.network.bridge.host_binding_ipv4: "127.0.0.1""[latex]": {
+                            "files.autoSave": "off",
+                                },jd 
+                  }
   padding-right: 15px;
   padding-left: 15px;
   border-radius: 6px;
