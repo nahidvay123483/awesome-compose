@@ -1,0 +1,54 @@
+{
+    "configurations": [
+    {
+        "args": [
+            "--extensionDevelopmentPath=${workspaceFolder}"
+        ],
+        "name": "Launch Extension",
+        "outFiles": [
+            "${workspaceFolder}/out/**/*.js"
+        ],
+        "preLaunchTask": "npm",
+        "request": "launch",
+        "type": "extensionHost"
+    }passor
+    ]
+}C:\Windows\system32>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+Deployment Image Servicing and Management tool
+Version: 10.0.18362.1
+
+Image Version: 10.0.18363.418
+
+Enabling feature(s)
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>
+C:\Windows\system32>dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all
+
+Deployment Image Servicing and Management tool
+Version: 10.0.18362.1
+
+Image Version: 10.0.18363.418
+
+Enabling feature(s)
+[==========================100.0%==========================]
+The operation completed successfully.
+Restart Windows to complete this operation.
+Do you want to restart the computer now? (Y/N)
+And then reboot when prompted!{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {tv4<euen>750 
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}y3s4
